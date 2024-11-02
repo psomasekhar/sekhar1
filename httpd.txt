@@ -1,0 +1,23 @@
+<VirtualHost 10.10.40.223:80>
+ServerAdmin mail@example.com
+   DocumentRoot /var/www/html/web1
+   ServerName web1
+   ErrorLog logs/nareshins.com-error_log
+   CustomLog logs/nareshins.com-access_log common
+</VirtualHost>
+
+<VirtualHost 172.16.1.223:80>
+ServerAdmin mail@example.com
+   DocumentRoot /var/www/html/web2
+   ServerName web2
+   ErrorLog logs/nareshins.com-error_log
+   CustomLog logs/nareshins.com-access_log common
+</VirtualHost>
+
+<VirtualHost 192.168.1.223:80>
+ServerAdmin mail@example.com
+   DocumentRoot /var/www/html/web3
+   ServerName web3
+   ErrorLog logs/nareshins.com-error_log
+   CustomLog logs/nareshins.com-access_log common
+</VirtualHost>
