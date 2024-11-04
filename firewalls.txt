@@ -1,0 +1,8 @@
+chkconfig --level 123456 iptables off
+chkconfig --level 123456 NetworkManager off
+chkconfig --level 123456 iptables off
+
+
+
+netstat -nr
+router -p delete 169.254.169.254
